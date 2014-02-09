@@ -49,10 +49,15 @@ then
     tar xzvf $JAVA_BIN
     ln -snf "jdk1.${JAVA_VER}.${JAVA_REL}_${JAVA_UPD}" java
     echo
-    echo '- Configure your environment variables:
+    echo '
+- Configure your environment variables:
     export JAVA_HOME="/opt/java"
     export PATH="$JAVA_HOME/bin:$PATH"
-    '
+
+- Validate with:
+    java -version
+    javac -version
+'
 else
     open $JAVA_BIN
 fi
