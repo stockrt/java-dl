@@ -2,7 +2,7 @@
 
 JAVA_VER="7"
 JAVA_REL="0"
-JAVA_UPD="45"
+JAVA_UPD="51"
 JAVA_BLD="18"
 
 #http://download.oracle.com/otn-pub/java/jdk/7u45-b18/jdk-7u45-linux-x64.tar.gz
