@@ -42,7 +42,7 @@ fi
 JAVA_BIN="jdk-${JAVA_VER}u${JAVA_UPD}-${HOST_OS}-${HOST_ARCH}${JAVA_EXT}"
 pushd /opt
 test ! -f $JAVA_BIN && \
-wget --no-check-certificate --header "Cookie: gpw_e24=a" "http://download.oracle.com/otn-pub/java/jdk/${JAVA_VER}u${JAVA_UPD}-b${JAVA_BLD}/${JAVA_BIN}"
+wget --no-check-certificate --header "Cookie: gpw_e24=a; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/${JAVA_VER}u${JAVA_UPD}-b${JAVA_BLD}/${JAVA_BIN}"
 
 if [[ "$JAVA_EXT" == ".tar.gz" ]]
 then
