@@ -1,10 +1,11 @@
 #!/bin/bash
 
-JAVA_VER="7"
+JAVA_VER="8"
 JAVA_REL="0"
-JAVA_UPD="55"
-JAVA_BLD="13"
+JAVA_UPD="111"
+JAVA_BLD="14"
 
+#http://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u111-b14/jre-8u111-linux-x64.tar.gz
 #http://download.oracle.com/otn-pub/java/jdk/7u45-b18/jdk-7u45-linux-x64.tar.gz
 #http://download.oracle.com/otn-pub/java/jdk/7u45-b18/jdk-7u45-linux-i586.tar.gz
 #http://download.oracle.com/otn-pub/java/jdk/7u45-b18/jre-7u45-linux-x64.tar.gz
